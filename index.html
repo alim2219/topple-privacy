@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Topple</title>
+<meta name="description" content="How the Topple mobile game handles data. It collects anonymous usage statistics and nothing else.">
+<style>
+/* Deliberately dependency-free: no web fonts, no scripts, no external requests. A privacy
+   policy that phones out to a font CDN to render is a bad look, and this page has to load
+   fast and forever from a static host. Accent is the game's teal. */
+:root{
+  --ground:#f4f4f2; --surface:#ffffff; --ink:#1b201e; --ink-2:#414945;
+  --muted:#6d7671; --line:#dfe2dd; --teal:#1a7a74; --teal-wash:#e4f4f2;
+  --flag:#fff3c4; --flag-ink:#7a5b00;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --ground:#121716; --surface:#1a201e; --ink:#e9ece9; --ink-2:#c2c9c5;
+    --muted:#8d968f; --line:#2b3331; --teal:#4ad1c4; --teal-wash:#12302e;
+    --flag:#3d3208; --flag-ink:#ffdd6b;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; padding:0 22px 96px;
+  background:var(--ground); color:var(--ink);
+  font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size:17px; line-height:1.68;
+}
+main{max-width:660px; margin:0 auto}
+header{padding:60px 0 28px; border-bottom:2px solid var(--ink)}
+.wordmark{
+  font-size:15px; font-weight:700; letter-spacing:.16em; text-transform:uppercase;
+  margin:0 0 20px; color:var(--ink);
+}
+.wordmark span{color:var(--teal)}
+h1{font-size:34px; line-height:1.15; letter-spacing:-.02em; margin:0 0 10px; font-weight:700}
+.updated{margin:0; color:var(--muted); font-size:15px}
+h2{
+  font-size:21px; letter-spacing:-.01em; margin:44px 0 12px; font-weight:650;
+  padding-top:4px;
+}
+h3{font-size:16.5px; margin:26px 0 8px; font-weight:650}
+p{margin:0 0 15px}
+ul{margin:0 0 15px; padding-left:22px}
+li{margin-bottom:9px}
+li:last-child{margin-bottom:0}
+a{color:var(--teal); text-underline-offset:2px}
+a:focus-visible{outline:2px solid var(--teal); outline-offset:2px; border-radius:2px}
+strong{font-weight:650}
+.summary{
+  background:var(--teal-wash); border-left:3px solid var(--teal);
+  border-radius:0 8px 8px 0; padding:18px 20px; margin:28px 0 0;
+}
+.summary p{margin:0; font-size:17px}
+.summary p + p{margin-top:12px}
+/* An unfilled placeholder must be impossible to miss on the live page. */
+.fill{
+  background:var(--flag); color:var(--flag-ink);
+  font-weight:650; padding:1px 6px; border-radius:4px;
+}
+footer{
+  margin-top:52px; padding-top:22px; border-top:1px solid var(--line);
+  color:var(--muted); font-size:14.5px;
+}
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <p class="wordmark">To<span>pp</span>le</p>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated 29 August 2026</p>
+</header>
+
+<div class="summary">
+  <p><strong>The short version.</strong> Topple collects a small amount of anonymous data about how the game is played — which levels people reach, how many tries a level takes — so it can be made better.</p>
+  <p>It does not know who you are. There is no sign-in, no advertising, no advertising identifier, and nothing is ever sold. You can switch the data collection off in the game's Settings.</p>
+</div>
+
+<h2>Who we are</h2>
+<p>Topple is published by <strong>NMG Studios</strong>, which is the data controller for the information described below.</p>
+<p>For anything on this page, contact <a href="mailto:ali.m021216@gmail.com">ali.m021216@gmail.com</a>.</p>
+
+<h2>What Topple collects</h2>
+
+<h3>Anonymous usage data</h3>
+<p>The game uses Google Analytics for Firebase to record how it is played. This covers:</p>
+<ul>
+  <li><strong>Gameplay events</strong> — opening the game, starting a level, completing a level, and for each completion: how many attempts it took, how long it took, how many stars were earned, and how many hints were used.</li>
+  <li><strong>Two summary values</strong> — the furthest level reached, and how many hints remain.</li>
+  <li><strong>Technical information collected automatically by Firebase</strong> — device model, operating system version, app version, language, approximate location (country or region, worked out from your IP address), and a randomly generated identifier for your installation of the app.</li>
+</ul>
+<p>That installation identifier is not linked to you, is not shared with other apps, and is replaced with a new one if you uninstall and reinstall.</p>
+
+<h3>Information kept only on your device</h3>
+<p>Your level progress, your remaining hints, and whether you have already seen the hint explainer are stored in your device's local storage. This never leaves your device, is never sent to us, and is deleted when you uninstall the game.</p>
+
+<h2>What Topple does not collect</h2>
+<ul>
+  <li><strong>Nothing that identifies you.</strong> No name, email address, phone number or account — the game has no sign-in of any kind.</li>
+  <li><strong>No advertising identifier.</strong> The Android advertising ID permission is deliberately removed from the app, and on iOS no tracking permission prompt appears because no tracking identifier is used.</li>
+  <li><strong>No precise location</strong>, contacts, photos, files, camera or microphone. The game requests none of these permissions.</li>
+  <li><strong>No advertising, and no attribution or tracking SDKs.</strong> The game contains no adverts.</li>
+  <li><strong>No selling or sharing</strong> with data brokers or any other third party, beyond the processor named below.</li>
+</ul>
+
+<h2>Why we collect it</h2>
+<p>To find out whether people come back to the game, and which levels are too hard or too easy, so that the game can be improved. Topple has 203 hand-verified levels and this is how we learn whether the difficulty we designed matches the difficulty people actually experience.</p>
+<p>Under UK and EU data protection law, our lawful basis is <strong>legitimate interests</strong> — improving a product that people have chosen to use. The data is not linked to an identifiable person and the effect on your privacy is minimal.</p>
+
+<h2>Who else processes it</h2>
+<p>Google LLC provides Firebase and Google Analytics, and processes this data on our behalf. It may be processed on servers in the United States and in other countries where Google operates, under Google's own safeguards for international transfers.</p>
+<ul>
+  <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+  <li><a href="https://firebase.google.com/support/privacy">How Firebase handles data</a></li>
+</ul>
+<p>No one else receives this data.</p>
+
+<h2>How long it is kept</h2>
+<p>Individual event records are kept for up to 14 months and are then deleted automatically. Aggregated statistics — counts and averages that cannot be traced to any single installation — may be kept for longer.</p>
+
+<h2>Your choices</h2>
+<p><strong>You can turn data collection off at any time.</strong> Open <strong>Settings</strong> — the gear at the top of the screen, or the Settings link on the opening screen — and tap <strong>Anonymous usage data</strong> so that it reads OFF. The choice is remembered between sessions, and using "Start over" to erase your progress does not change it.</p>
+<p>Once it is off, the game stops sending anything. Information recorded earlier in the same session cannot be recalled, but from the next time you open the game nothing at all is collected.</p>
+<p>Uninstalling the game also stops all collection, and additionally deletes the progress stored on your device.</p>
+<p>Because this data is anonymous and is not linked to a name, an email address or an account, we usually have no way to find the records belonging to a particular person, and so cannot act on an individual request to see or delete them. This is a consequence of collecting as little as possible, not an attempt to avoid the obligation.</p>
+<p>If you are in the UK or the EEA, you have rights over personal data, including access, correction, erasure, restriction, objection and portability. Write to <a href="mailto:ali.m021216@gmail.com">ali.m021216@gmail.com</a> and we will do what we can. You may also complain to your data protection authority — in the UK, the <a href="https://ico.org.uk/make-a-complaint/">Information Commissioner's Office</a>.</p>
+
+<h2>Children</h2>
+<p>Topple is a general-audience puzzle game. It is not directed at children under 13 and we do not knowingly collect data from them. If you believe a child has provided us with data, please get in touch and we will delete it.</p>
+
+<h2>Changes to this policy</h2>
+<p>If the way the game handles data changes, this page will be updated and the date at the top will change. Significant changes will also be mentioned in the app's release notes.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:ali.m021216@gmail.com">ali.m021216@gmail.com</a></p>
+
+<footer>
+  Topple · this policy covers the Topple mobile game on iOS and Android.
+</footer>
+
+</main>
+</body>
+</html>
